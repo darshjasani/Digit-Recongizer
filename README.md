@@ -34,6 +34,16 @@ mon strategy for debugging is to print out the sizes of the matrices you
 are working with using the size function. For example, given a data ma-
 trix X of size 100X20 (100 examples, 20 features) and theta, a vector with
 dimensions 20X1, you can observe that X*theta is a valid multiplication oper-
-ation, while theta*X is not. Furthermore, if you have a non-vectorized version
-of your code, you can compare the output of your vectorized code and
+ation, while theta*X is not. 
+
+Furthermore, if you have a non-vectorized version of your code, you can compare the output of your vectorized code and
 non-vectorized code to make sure that they produce the same outputs.
+
+Our neural network  has 3 layers { an input layer, a
+hidden layer and an output layer}. Recall that our inputs are pixel values of
+digit images.  
+
+Since the images are of size 20X20, this gives us 400 input layer
+units (excluding the extra bias unit which always outputs +1). As before,
+the training data will be loaded into the variables X and y.
+ 
