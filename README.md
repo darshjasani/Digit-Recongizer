@@ -47,3 +47,6 @@ Since the images are of size 20X20, this gives us 400 input layer
 units (excluding the extra bias unit which always outputs +1). As before,
 the training data will be loaded into the variables X and y.
  
+You should see that the accuracy is about 97.5%. After that, an interactive sequence will launch dis-
+playing images from the training set one at a time, while the console prints
+out the predicted label for the displayed image.
